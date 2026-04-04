@@ -1,0 +1,60 @@
+Start  
+  ↓  
+Login to Azure Portal  
+(Open https://portal.azure.com and sign in)  
+  ↓  
+Go to "Virtual Machines"  
+(Search from dashboard or use sidebar menu)  
+  ↓  
+Click "Create" → Select "Azure Virtual Machine"  
+  ↓  
+Configure Basics  
+- Select Subscription  
+- Create / Choose Resource Group  
+- Enter VM Name  
+- Select Region (Location)  
+  ↓  
+Select OS Image  
+- Ubuntu (Linux) OR  
+- Windows Server  
+  ↓  
+Choose VM Size  
+- Select CPU & RAM configuration  
+- Example: B1s (Free Tier)  
+  ↓  
+Set Authentication  
+- Choose Username  
+- Select Authentication Type:  
+   → SSH Key (Recommended for Linux)  
+   → Password  
+  ↓  
+Configure Networking  
+- Create Virtual Network (VNet)  
+- Assign Public IP  
+- Open Required Ports:  
+   → 22 (SSH - Linux)  
+   → 3389 (RDP - Windows)  
+   → 80 (HTTP)  
+   → 443 (HTTPS)  
+  ↓  
+Review + Create  
+(Check all configurations carefully)  
+  ↓  
+Validation Process  
+(Azure checks for errors)  
+  ↓  
+Deployment in Progress  
+(Resources are being created)  
+  ↓  
+VM Successfully Created  
+(Status: Running)  
+  ↓  
+Connect to VM  
+- SSH (Linux): using terminal  
+- RDP (Windows): using Remote Desktop  
+  ↓  
+Post Setup  
+- Install software  
+- Configure server / applications  
+  ↓  
+End  
