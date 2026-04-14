@@ -1,0 +1,25 @@
+Start
+  ↓
+Login to Azure Portal
+  ↓
+Create Resource Group
+  ↓
+Create Virtual Machine
+  ↓
+Enable Azure Monitor
+  ↓
+Create Alert Rule
+  ↓
+Set Condition (CPU, Disk, etc.)
+  ↓
+Create Action Group
+  ↓
+Add Email & Phone
+  ↓
+Link Action Group to Alert
+  ↓
+Trigger Condition Met
+  ↓
+Receive Notifications (Email/SMS)
+  ↓
+End
